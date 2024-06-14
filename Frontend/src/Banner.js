@@ -6,10 +6,11 @@ import mason from './images/mason.jpg'
 import educationBanner from './images/educationBanner.png'
 import medicationBanner from './images/medicationBanner.jpg'
 import rentBanner from './images/rentBanner.jpg'
+import './App.css'
 
 function Banner() {
   return (
-    <div style={{ display: 'block', width:'85vw', padding: 30,backgroundColor:'rgb(49, 54, 63)' }}> 
+    <div className='banner' style={{ width:'60vw', padding: 30,backgroundColor:'rgb(245, 245, 220)',margin: "10px 35px"}}> 
     <Carousel > 
       <Carousel.Item interval={500}> 
         <img 

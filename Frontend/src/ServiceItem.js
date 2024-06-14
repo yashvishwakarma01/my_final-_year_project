@@ -9,11 +9,12 @@ import plumber from "./images/plumber.jpg";
 import labour from "./labour.jpg";
 import beauty from "./images/beauty.jpg";
 import Banner from "./Banner";
+
 function ServiceItem() {
   return (
     <>
-      <Banner />
-      <div
+     <Banner />
+      <div className="serviceCardItems"
         style={{
           display: "flex",
           flexDirection: "row",
@@ -24,6 +25,7 @@ function ServiceItem() {
           gap: "20px",
         }}
       >
+       
         <CardBody title={"education"} image={edu} message={"Leveraging wonderful educational services nearby you.Click on the below button to access the services"}/>
         <CardBody title={"medication"} image={medication} message={"Leveraging wonderful medication services nearby you.Click on the below button to access the services"}/>
         <CardBody title={"food"} image={food} message={"Leveraging wonderful food and restraunts nearby you.Click on the below button to access the services"}/>

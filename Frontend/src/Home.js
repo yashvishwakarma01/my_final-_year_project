@@ -7,7 +7,7 @@ function Home() {
     <div >
      {/* <Bar style={{backgroundColor:'black'}}/> */}
       <div className='flex-container'>
-     
+   
       <ServiceItem/>
     </div>
 

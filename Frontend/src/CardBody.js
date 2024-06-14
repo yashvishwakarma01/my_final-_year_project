@@ -10,7 +10,7 @@ function CardBody(props) {
    console.warn("use",loc)
  
   return (
-    <Card style={{ width: '20rem' }}>
+    <Card style={{ width: '20rem',textAlign:'center' }}>
       <Card.Img variant="top" src={props.image} alt={props.title.toUpperCase()} />
       <Card.Body>
         <Card.Title>{props.title.toUpperCase()}</Card.Title>
