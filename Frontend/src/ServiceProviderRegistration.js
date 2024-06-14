@@ -61,7 +61,7 @@ const ServiceProviderRegistration = () => {
   const initiatePayment = async () => {
     try {
       // Call your backend to create a payment order
-      const response = await axios.post("http://127.0.0.1:5000/createPayment", {
+      const response = await axios.post("https://click-eazzy.onrender.com/createPayment", {
         amount: 100,
         currency: "INR", // Change this according to your currency
       });
